@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
 :root {
-    --linea--borde--llena: #3498db;
-    --linea--borde--vacia: #e0e0e0;
+    --linea-borde-llena: #3498db;
+    --linea-borde-vacia: #e0e0e0;
 }
 
 * {
@@ -35,7 +35,7 @@ body {
 }
 
 .progreso {
-    background-color: var(--linea--borde--llena);
+    background-color: var(--linea-borde-llena);
     position: absolute;
     top: 50%;
     left: 0;
@@ -48,7 +48,7 @@ body {
 
 .contenedor-de-progreso::before {
     content: " ";
-    background-color: var(--linea--borde--vacia);
+    background-color: var(--linea-borde-vacia);
     position: absolute;
     top: 50%;
     left: 0;
@@ -67,10 +67,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid var(--linea--borde-vacia);
+    border: 3px solid var(--linea-borde-vacia);
     transition: .4s ease;
 }
 
 .circulo.activo{
-    border-color: var(--linea--borde--llena); 
+    border-color: var(--linea-borde-llena); 
 }
