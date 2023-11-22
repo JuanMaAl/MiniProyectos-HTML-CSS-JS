@@ -74,3 +74,15 @@ body {
 .circulo.activo{
     border-color: var(--linea-borde-llena); 
 }
+
+.btn {
+    background-color: var (--linea-borde-llena);
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+}
